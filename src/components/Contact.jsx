@@ -1,14 +1,14 @@
 import React from "react";
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
 
 
 const Contact = () => {
 
-  const [state, handleSubmit] = useForm("xknlqabe");
-  if (state.succeeded) {
-    alert("Thanks for joining!");
-    return <p>Thanks for joining!</p>;
-  }
+  // const [state, handleSubmit] = useForm("xknlqabe");
+  // if (state.succeeded) {
+  //   alert("Thanks for joining!");
+  //   return <p>Thanks for joining!</p>;
+  // }
 
   return (
     <section id="contact" class="bg-black py-10 pt-24">
