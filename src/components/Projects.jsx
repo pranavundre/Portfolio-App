@@ -1,4 +1,5 @@
 import React from "react";
+import project1 from "../assets/project1_thumbnail.png";
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
           {/* <!-- Project Card 1 --> */}
           <div class="bg-grey w-full md:w-2/3 lg:w-auto text-faintgrey pb-6 rounded-lg transition-transform duration-500 transform hover:scale-105 hover:border-gold hover:border-opacity-50 lg:col-span-1">
             <img
-              src="./assets/project1_thumbnail.png"
+              src={project1}
               alt="Project 1 Thumbnail"
               class="w-full h-auto mb-4 rounded-t-lg"
             />

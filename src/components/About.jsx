@@ -1,5 +1,6 @@
 import React from "react";
 import picture from "../assets/Profile.png";
+import resume from "../assets/Pranav Undre Resume.pdf";
 
 const About = () => {
   return (
@@ -59,19 +60,19 @@ const About = () => {
               Hello Boiss
             </div> */}
             <div className="pt-3 text-midgrey text-base md:text-lg font-medium text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
-              aliquam laboriosam natus sunt nulla quod doloribus eius,
-              laudantium nostrum perferendis accusantium quam expedita,
-              necessitatibus saepe, obcaecati maiores id vero impedit minima
-              reprehenderit eaque quisquam fugiat dolorum ut. Dolor rerum
-              dolorem asperiores, laborum sunt tempore. Dolores quia repellat a
-              itaque excepturi. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Dolor ratione ullam assumenda praesentium ipsam
-              quisquam optio tempore quis, maxime velit laudantium, quidem
-              minima recusandae nemo.
+              Hey, this is Pranav and I love learning different technologies to develop software products that help users. This passion has led me to explore Computer Science. I am currently an undergraduate student of Information Technology at VIT, Vellore. In the past two years, I have tried a number of languages, tools, and frameworks, but the ones that really caught my interest were <c className = "text-gold">C++, ReactJS, NodeJS, and Tailwind</c>. While I am in the process of completing my graduation in a few months, I am actively looking forward to internships or full-time job opportunities that allow me to apply my skills and challenge my abilities in a real-world setting.
             </div>
             <div className="flex flex-col space-y-4 lg:flex-row lg:space-x-6 lg:space-y-0 mt-6 ">
-              <button className="bg-gold text-grey font-semibold text-xl md:text-2xl rounded-lg hover:opacity-80 py-2 px-3">
+              <button
+                className="bg-gold text-grey font-semibold text-xl md:text-2xl rounded-lg hover:opacity-80 py-2 px-3"
+                onClick={() => {
+                  // Replace 'your-pdf-file.pdf' with the actual URL of your PDF file
+                  const pdfUrl = resume;
+
+                  // Open the PDF file in a new tab
+                  window.open(pdfUrl, "_blank");
+                }}
+              >
                 <i className="fas fa-file-download mr-1"></i>
                 Resume
               </button>

@@ -69,9 +69,19 @@ const Contact = () => {
                     LinkedIn
                   </a>
                 </li>
+                <li class = "mb-2">
+                  <a
+                    href="https://leetcode.com/pranavundre"
+                    class="text-gold hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LeetCode
+                  </a>
+                </li>
                 <li class="mb-2">
                   <a
-                    href="https://twitter.com/pranavundre"
+                    href="https://twitter.com/pranav_undre"
                     class="text-gold hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -87,16 +97,6 @@ const Contact = () => {
                     rel="noopener noreferrer"
                   >
                     Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://leetcode.com/pranavundre"
-                    class="text-gold hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    LeetCode
                   </a>
                 </li>
               </ul>
@@ -118,6 +118,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   class="w-full bg-grey rounded-lg border border-midgrey p-2 mt-2"
+                  required
                 />
               </div>
               <div className="mt-4">
@@ -128,6 +129,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   class="w-full bg-grey rounded-lg border border-midgrey p-2 mt-2"
+                  required
                 />
               </div>
               <div className="mt-4">
@@ -138,6 +140,7 @@ const Contact = () => {
                   type="text"
                   name="message"
                   class="w-full bg-grey rounded-lg border border-midgrey p-2 mt-2"
+                  required
                 />
               </div>
               <button
